@@ -1,0 +1,13 @@
+header{
+    width: 100vw;
+    height: fit-content;
+    background-color: var(--primary);
+    position: fixed;
+}
+
+.mobile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
