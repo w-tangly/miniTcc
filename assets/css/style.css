@@ -22,3 +22,7 @@
     font-family: SUSE;
     color: white;
 }
+
+html{
+    overflow-x: hidden;
+}

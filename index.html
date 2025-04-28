@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/img/ui/logo-shortcut.png">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/header.css">
-    <link rel="stylesheet" href="banner.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/banners.css">
     <title>Lancheria Delícia</title>
 </head>
+
 <body>
     <header>
         <div class="mobile">
@@ -18,14 +21,56 @@
         </div>
 
         <div class="desktop">
-
+            <a href="./index.html" class="logo">
+                <img src="./assets/img/ui/logo.png" alt="Logo Lancheria Delícia. Xícara de café quente com o vapor fazendo o contorno dum coração, escrito embaixo 'Lancheria Delícia'">
+            </a>
+            <div class="links">
+                <a href="" class="link selected">Cardápio</a>
+                <a href="" class="link">Entregas</a>
+                <a href="" class="link">Login</a>
+            </div>
+            <a href="">
+                <img src="./assets/img/ui/shopping-cart.png" alt="">
+            </a>
         </div>
     </header>
 
     <section class="banners">
-        <img src="./assets/img/banner/bauru-banner.png" alt="" class="banner">
-        <img src="./assets/img/banner/coxinha-banner.jpg" alt="" class="banner">
-        <img src="./assets/img/banner/esfirra-banner.jpg" alt="" class="banner">
+        <div class="banner active">
+            <img src="./assets/img/banner/bauru-banner.png" alt="">
+        </div>
+        <div class="banner">
+            <img src="./assets/img/banner/coxinha-banner.jpg" alt="">
+        </div>
+        <div class="banner">
+            <img src="./assets/img/banner/esfirra-banner.jpg" alt="">
+        </div>
+        <div class="banner-counter"></div>
     </section>
+
+    <section class="menu">
+        <div class="header">
+            <h2 class="title">CARDÁPIO</h2>
+            <a class="filterBtn">
+                <img src="./assets/img/ui/filter.png" alt="">
+                <p>FILTRAR</p>
+            </a>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>Trabalho “Mini TCC” feito por: <br>
+            Pedro Henrique Campos do Carmo <br>
+            Pedro Henrique Klarosk de Araújo</p>
+    </footer>
+
+    <!-- <section class="footer-fixed">
+        <img src="assets/img/ui/logo.png" alt="">
+        <img src="assets/img/ui/shopping-cart-mobile.png" alt="">
+        <img src="assets/img/ui/user.png" alt="">
+    </section> -->
 </body>
+<script src="./assets/js/teste.js"></script>
+
 </html>

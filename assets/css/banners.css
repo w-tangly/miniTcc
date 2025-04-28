@@ -1,0 +1,17 @@
+.banners{
+    padding-top: 11.2vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img{
+    opacity: .5;
+    min-width: 60vw;
+    max-height: 60vh;
+}
+
+.banner.active img {
+    opacity: 1;
+}

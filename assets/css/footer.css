@@ -1,0 +1,31 @@
+footer{
+    background-color: #33575B;
+    display: block;
+    font-size: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #fff;
+    justify-content: center;
+    width: 100vw;
+}
+
+
+.footer-fixed {
+    background-color: #33575B;
+    display: none;
+    font-size: 10px;
+    text-align: center;
+    color: #fff;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 3vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-fixed img {
+    height: 60px;
+}
+

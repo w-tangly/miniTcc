@@ -6,8 +6,40 @@ header{
 }
 
 .mobile{
-    display: flex;
+    display: none;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.desktop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.desktop a img{
+    max-width: 150px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.link{
+    color: var(--secondary);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.65rem;
+}
+
+.link:hover{
+    color: white;
+}
+
+.selected{
+    color: white;
 }
