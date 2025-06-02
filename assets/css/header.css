@@ -2,14 +2,33 @@ header{
     width: 100vw;
     height: fit-content;
     background-color: var(--primary);
-    position: fixed;
 }
 
 .mobile{
     display: none;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.mobile a img{
+    width: 2rem;
+    height: 2rem;
+}
+
+@media(width<800px){
+    .mobile{
+        display: flex;
+    }
+
+    .mobile .invisible{
+        display: none;
+    }
+
+    header .desktop{
+        display: none;
+    }
 }
 
 .desktop{

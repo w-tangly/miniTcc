@@ -29,3 +29,8 @@ footer{
     height: 60px;
 }
 
+@media(width<800px){
+    .footer-fixed{
+        display: flex;
+    }
+}
